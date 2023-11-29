@@ -1,0 +1,360 @@
+@media (min-width: 280px) {
+
+    body {
+        background: url("https://psv4.userapi.com/c237231/u268446472/docs/d37/a296d2c39c13/33258__30001__12398__27231__20250__33_1.jpg?extra=T0NecJwjCtYG3QzIabE3a9NIqWfm69bhHiFY2G1hlXkwCn7F5I1fPY5JnnaNlvIZ9NPxMj1LJxH7XKRtP3i7oSNF3Ms_cW-gw0r5ZKr9DbN0ahzyAutGBgKPKFJWJBMBzMMJP99LbTnyaX4axWBgpds.jpg") no-repeat center center fixed;
+        /* замените "background.jpg" на путь к вашему заднему фону */
+        background-size: cover;
+        transform: scale(1);
+        /* Значение 1 означает 100% масштаб */
+        transform-origin: top center;
+        /* Устанавливает точку масштабирования в верхний левый угол */
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        min-height: 100vh;
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+    }
+}
+
+@font-face {
+    font-family: 'Sabbath';
+    src: url("../fonts/Sabbath.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Thrash';
+    src: url("../fonts/Thrash.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+a {
+    display: block;
+    text-decoration: none;
+    color: rgba(232, 30, 107, 0.685);
+}
+
+p {
+    display: flex;
+    padding-inline: 30px;
+    padding-bottom: 0px;
+    text-align: center;
+    font-size: 40px;
+    font-style: "normal";
+    font-weight: 400;
+    line-height: normal;
+    color: rgba(232, 30, 107, 0.685);
+}
+
+
+.Logo {
+    position: fixed;
+    width: 250px;
+    height: 150px;
+    left: 10px;
+    top: 6%;
+    display: flex;
+    object-fit: cover;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+}
+
+.Line {
+    width: 100vw;
+    height: 0px;
+    top: 46px;
+    position: fixed;
+    border: 2px white solid;
+    z-index: 2;
+}
+
+.Forumlink {
+    position: fixed;
+    top: 10px;
+    right: 115px;
+    width: 110px;
+    height: 30px;
+    color: rgb(119, 102, 102);
+    ;
+    font-size: 20px;
+    font-family: "Akshar";
+    font-weight: 700;
+    word-wrap: break-word;
+    text-decoration: none;
+    z-index: 2;
+}
+
+.Shop {
+    top: 10px;
+    right: 30px;
+    width: 100px;
+    height: 30px;
+    position: fixed;
+    color: rgb(119, 102, 102);
+    font-size: 20px;
+    font-family: Inter;
+    font-weight: 700;
+    word-wrap: break-word;
+    text-decoration: none;
+    z-index: 2;
+
+}
+
+#genreButton {
+    position: fixed;
+    left: 25%;
+    top: 1px;
+    height: 40px;
+    background-color: #000000;
+    color: rgb(160, 43, 92);
+    font-size: 22px;
+    font-family: "Akshar";
+    font-weight: 700;
+    padding: 8px 16px;
+    border: none;
+    cursor: pointer;
+    transition: 500ms;
+    z-index: 2
+}
+
+#genreMenu {
+    display: none;
+    position: absolute;
+    left: 31%;
+    top: 50px;
+    background-color: rgba(0, 0, 0, 0.8);
+    min-width: 160px;
+    max-width: 250px;
+    padding: 12px 16px;
+    border-radius: 10%;
+    border: solid 1px rgb(42, 24, 122);
+    z-index: 2
+}
+
+#myButton {
+    position: fixed;
+    left: 56px;
+    top: 10px;
+    background-color: #000000;
+    color: rgb(160, 43, 92);
+    font-size: 22px;
+    font-family: "Akshar";
+    font-weight: 700;
+    padding: 8px 16px;
+    border: none;
+    border-left: solid 2px rgb(61, 65, 108);
+    border-right: solid 2px rgb(61, 65, 108);
+    cursor: pointer;
+    transition: 500ms;
+    z-index: 2
+}
+
+#contextMenu {
+    display: none;
+    position: absolute;
+    left: 145px;
+    top: 20px;
+    background-color: rgba(0, 0, 0, 0.8);
+    min-width: 160px;
+    max-width: 250px;
+    padding: 12px 16px;
+    border-radius: 10%;
+    border: solid 1px rgb(42, 24, 122);
+    z-index: 2
+}
+
+#contextMenu a {
+    color: rgb(94, 38, 73);
+    padding: 8px 0;
+    display: block;
+    transition: 500ms;
+}
+
+#contextMenu a:hover {
+    background-color: rgb((0, 2, 145), 241, 241);
+    text-decoration: none;
+    color: inherit;
+}
+
+.ReturnToMain {
+    position: fixed;
+    top: 10px;
+    right: 20px;
+    width: 110px;
+    height: 30px;
+    color: rgb(119, 102, 102);
+    font-size: 20px;
+    font-family: Inter;
+    font-weight: 700;
+    word-wrap: break-word;
+    text-decoration: none;
+    z-index: 2;
+}
+
+
+.effect {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    z-index: 2;
+    background-color: rgba(0, 0, 0, 0.091);
+}
+
+.conteiner {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: rgb(58, 58, 58);
+
+}
+
+/* Список групп */
+
+/* расположение текста */
+
+.HeavyHeadline {
+    position: fixed;
+    top: 10%;
+    right: 44%;
+    width: 9%;
+    height: 11%;
+    justify-content: center;
+    text-align: center;
+    color: rgb(119, 102, 102);
+    background-color: rgb(0, 0, 0);
+    font-size: 20px;
+    font-family: "Sabbath";
+    font-weight: 700;
+    word-wrap: break-word;
+    z-index: 2;
+}
+
+.ThrashHeadline {
+    position: fixed;
+    top: 10%;
+    right: 44%;
+    width: 9%;
+    height: 11%;
+    justify-content: center;
+    text-align: center;
+    color: rgb(119, 102, 102);
+    background-color: rgb(0, 0, 0);
+    font-size: 40px;
+    font-family: "Thrash";
+    font-weight: 700;
+    word-wrap: break-word;
+    z-index: 2;
+}
+
+/* расположение текста */
+
+.top-bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 4%;
+    width: 100%;
+    padding: 0%;
+    z-index: 3;
+}
+
+.tophat {
+    display: flex;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    background-color: #5B1A8E;
+    justify-content: space-between;
+    z-index: 3;
+
+}
+
+.tophat>div>button {
+    padding: 17px;
+    width: 250px;
+    height: 56px;
+    z-index: 3;
+}
+
+.tophat>li>a {
+    text-decoration: none;
+    text-align: center;
+    transition: 500ms;
+    display: flex;
+    width: 250px;
+    height: 56px;
+    flex-direction: column;
+    justify-content: center;
+    color: var(--Color, #FFF);
+    font-size: 20px;
+    z-index: 3;
+}
+
+.tophat>a>img {
+    text-decoration: none;
+    text-align: center;
+    display: flex;
+    width: 215px;
+    height: 56px;
+    flex-direction: column;
+    justify-content: center;
+    z-index: 3;
+}
+
+.tophat>a:hover {
+    color: rgb(242, 22, 143);
+    z-index: 3;
+}
+
+.block-center {
+    position: fixed;
+    top: 25%;
+    left: 5%;
+    display: inline-block;
+    text-align: center;
+    padding-inline: 10%;
+    z-index: 2;
+}
+
+.block {
+    display: inline-block;
+    text-align: right;
+    background-color: rgba(0, 0, 0, 0.855);
+    border: 3px solid;
+    border-radius: 5px;
+    border-color: #5c1a8e71;
+    margin: 20px;
+    z-index: 2;
+}
+
+.block>img {
+    float: left;
+    width: 18%;
+    flex: 0 0 auto;
+    border-right: 3px solid;
+    border-radius: 1px;
+    border-color: #5c1a8e71;
+    object-fit: fill;
+    z-index: 2;
+
+}
+
+.block>p {
+    flex: 1;
+    margin-top: 0%;
+    padding-top: 10px;
+    text-align: justify;
+    font-size: 18px;
+    z-index: 2;
+}
+
+/* Список групп */

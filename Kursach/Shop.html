@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="static/styles/style.css">
+    <title>Shop</title>
+</head>
+
+<body>
+    <p>
+    <div class="top-bar">
+        <nav class="tophat">
+            <div class="Line"></div>
+            <a href="forum.html" class="Forumlink">Форум</a>
+            <a href="index.html" class="ReturnToMain"> Главная </a>
+            <div class="Logo">
+                <a href="index.html" class="logo-link">
+                    <img class="Logo" src="static/images/Logo.png">
+                </a>
+            </div>
+            <button id="myButton" onclick="toggleContextMenu(event)">Меню</button>
+            <script src="static/scripts/context-menu.js"></script>
+            <div id="contextMenu">
+                <a href="#">Новости</a>
+                <a href="#">Ближайшие туры</a>
+            </div>
+            <button id="genreButton" onclick="toggleGenreMenu(event)">Жанры</button>
+            <script src="static/scripts/genre-menu.js"></script>
+            <div id="genreMenu">
+                <a href="Heavy-list.html">Хэви Метал</a>
+                <a href="Thrash-Metal.html">Трэш Метал</a>
+                <a href="#">Психоделический рок</a>
+                <a href="#">Альтернативный рок</a>
+            </div>
+        </nav>
+    </div>
+    </p>
+</body>
+
+</html>

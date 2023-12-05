@@ -1,7 +1,7 @@
 @media (min-width: 280px) {
 
     body {
-        background: url("https://psv4.userapi.com/c237231/u268446472/docs/d37/a296d2c39c13/33258__30001__12398__27231__20250__33_1.jpg?extra=T0NecJwjCtYG3QzIabE3a9NIqWfm69bhHiFY2G1hlXkwCn7F5I1fPY5JnnaNlvIZ9NPxMj1LJxH7XKRtP3i7oSNF3Ms_cW-gw0r5ZKr9DbN0ahzyAutGBgKPKFJWJBMBzMMJP99LbTnyaX4axWBgpds.jpg") no-repeat center center fixed;
+        background: ("https://i.redd.it/9r11cvs3fd4c1.jpg?app_web_view=android") no-repeat center center fixed;
         /* замените "background.jpg" на путь к вашему заднему фону */
         background-size: cover;
         transform: scale(1);
